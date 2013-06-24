@@ -1,0 +1,11 @@
+default:
+  dmCommonHelpersPlugin:
+    money_helper_settings:
+      formats:
+        default:
+          currency_sign:            '€'
+          decimals:                 2
+          decimals_point:           ','
+          thousands_point:          '.'
+          currency_symbol_position: 'after'
+          currency_separator:       ''

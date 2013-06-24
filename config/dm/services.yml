@@ -1,0 +1,12 @@
+parameters:
+
+  console_log.class:            dmConsoleLog
+  console_log.options:
+    formatter_class:   sfAnsiColorFormatter
+
+
+services:
+  console_log:
+    class:                    %console_log.class%
+    shared:                   true
+    arguments:                [ @dispatcher, %console_log.options% ]
